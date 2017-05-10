@@ -1,0 +1,70 @@
+body{
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+    font-size: 5em;
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 200px;
+    padding-bottom: 30px;
+    color: #4a4a4b;
+}
+
+h2{
+    padding-top:25px;
+    font-size: 3.5em;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    line-height: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #4a4a4b;
+}
+
+h3{
+    padding-top:50px;
+    font-size: 3em;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    line-height: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #b36459;
+}
+
+footer{
+    position: absolute;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    font-size: 3em;
+    color: #4a4a4b;
+}
+
+
+@media screen and (min-width: 480px) {
+    h1{
+        font-size: 2em;
+        padding-top: 100px;
+    }
+
+    h2{
+        font-size: 1.5em;
+    }
+
+    h3{
+        font-size: 1em;
+    }
+
+    footer{
+        font-size: 0.8em;
+    }
+}
+
