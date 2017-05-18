@@ -7,13 +7,13 @@ body{
     position: fixed;
     top:35%;
     line-height: 40px;
-    opacity: 0.7;
+    opacity: 0.8;
     right: 10px;
 }
 
 .dot{
     text-decoration: none;
-    color: #7d7d7d;
+    color: #8c8c8c;
 }
 
 .dot:hover{
@@ -35,10 +35,11 @@ body{
 #titel{
     padding-top: 20%;
     font-size: 50px;
+    color: #ed4850;
 }
 
 h1{
-    padding: 25% 0% 10% 0%;
+    padding: 20% 0% 10% 0%;
     font-size: 30px;
 }
 
@@ -47,21 +48,66 @@ h2{
 }
 
 #page1{
-    background-image: url("../images/image1WIT.png");
+    background-image: url("../images/backgrounds/image1WIT.png");
 }
 
 #page2{
-    background-image: url("../images/image1.png");
+    background-image: url("../images/backgrounds/image4WIT.png");
 }
 
 #page3{
-    background-image: url("../images/image1WIT.png");
+    background-image: url("../images/backgrounds/image5WIT.png");
 }
 
 #page4{
-    background-image: url("../images/image1.png");
+    background-image: url("../images/backgrounds/image6WIT.png");
 }
 
 #page5{
-    background-image: url("../images/image1WIT.png");
+    background-image: url("../images/backgrounds/image8WIT.png");
+}
+
+#mockup1{
+    margin-top:10%;
+    height: 300px;
+}
+
+#mockup2{
+    margin-top:10%;
+    height: 300px;
+}
+
+#mockup3{
+    margin-top:10%;
+    height: 300px;
+}
+
+#instagram{
+    margin-top:10%;
+    height: 150px;
+}
+
+#twitter{
+    margin-top:10%;
+    height: 150px;
+}
+
+#titelonderaan{
+    padding: 5% 0% 10% 0%;
+    font-size: 60px;
+    color: #ed4850;
+}
+
+#logo{
+    margin-top:15%;
+    height: 250px;
+}
+
+#appstore{
+    margin-top:10%;
+    height: 70px;
+}
+
+#playstore{
+    height: 70px;
 }
