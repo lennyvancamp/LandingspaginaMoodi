@@ -1,5 +1,6 @@
 body{
     font-family:'Quicksand', sans-serif;
+    color: #ffffff;
 }
 
 .dots{
@@ -13,11 +14,11 @@ body{
 
 .dot{
     text-decoration: none;
-    color: #8c8c8c;
+    color: #FFFFFF;
 }
 
 .dot:hover{
-    color: #474747;
+    color: #bdbdbf;
 }
 
 .page{
@@ -35,7 +36,6 @@ body{
 #titel{
     padding-top: 20%;
     font-size: 50px;
-    color: #ed4850;
 }
 
 h1{
@@ -69,33 +69,33 @@ h2{
 
 #mockup1{
     margin-top:10%;
-    height: 300px;
+    height: 40vh;
 }
 
 #mockup2{
     margin-top:10%;
-    height: 300px;
+    height: 40vh;
 }
 
-#mockup3{
-    margin-top:10%;
-    height: 300px;
+#mockup3 {
+    margin-top: 10%;
+    height: 40vh;
 }
 
 #instagram{
-    margin-top:10%;
-    height: 150px;
+    height: 15vh;
+    margin: 3%;
 }
 
 #twitter{
-    margin-top:10%;
-    height: 150px;
+    height: 15vh;
+    margin: 3%;
 }
 
 #titelonderaan{
     padding: 5% 0% 10% 0%;
     font-size: 60px;
-    color: #ed4850;
+    color: #ffffff;
 }
 
 #logo{
@@ -105,9 +105,68 @@ h2{
 
 #appstore{
     margin-top:10%;
-    height: 70px;
+    height: 9vh;
 }
 
 #playstore{
-    height: 70px;
+    height: 9vh;
 }
+
+
+@media screen and (min-width: 768px) {
+
+    #titel{
+        font-size: 75px;
+        padding: 6% 0% 5% 0%;
+    }
+
+    h2{
+        font-size: 25px;
+        padding: 0% 20% 0% 20%;
+    }
+
+    #mockup1{
+        margin-top:3%;
+        height: 52vh;
+    }
+
+    h1{
+        padding: 10% 0% 3% 0%;
+        font-size: 45px;
+    }
+    #mockup2{
+        margin-top:3%;
+        height: 52vh;
+    }
+
+    #mockup3 {
+        margin-top:3%;
+        height: 52vh;
+    }
+
+    #logo{
+        margin-top:10%;
+        height: 40vh;
+    }
+
+    #titelonderaan{
+        padding: 3% 0% 5% 0%;
+        font-size: 75px;
+    }
+
+    #verkrijgbaar{
+        margin-bottom:3%;
+    }
+
+    #appstore{
+        margin-top:0%;
+        height: 7vh;
+    }
+
+    #playstore{
+        height: 7vh;
+    }
+
+}
+
+
